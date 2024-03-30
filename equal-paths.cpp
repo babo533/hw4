@@ -1,4 +1,5 @@
 #ifndef RECCHECK
+#include <iostream>
 //if you want to add any #includes like <iostream> you must do them here (before the next endif)
 
 #endif
@@ -57,4 +58,3 @@ bool equalPaths(Node *node) {
     } 
     return checkEqualPaths(node) != -1;
 }
-
