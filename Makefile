@@ -16,3 +16,4 @@ equal-paths-test: equal-paths-test.cpp equal-paths.cpp equal-paths.h
 clean:
 	rm -f *~ *.o bst-test equal-paths-test
 
+
