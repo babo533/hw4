@@ -422,8 +422,7 @@ bool BinarySearchTree<Key, Value>::empty() const
 template<typename Key, typename Value>
 void BinarySearchTree<Key, Value>::print() const
 {
-    printRoot(root_);
-    std::cout << "\n";
+  printRoot(root_);
 }
 
 /**
